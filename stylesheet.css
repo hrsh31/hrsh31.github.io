@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.thoughts {
+	background-image:url("https://scontent.fblr2-1.fna.fbcdn.net/v/t1.0-9/86500443_1276765189182310_6813754126619377664_o.jpg?_nc_cat=102&_nc_oc=AQlEzwtEsXhD5V7VxP_z4qUB_vaqkL4K7JVlPIDtxGcXyK32jOs8EtydxfRZt-LJvfk&_nc_ht=scontent.fblr2-1.fna&oh=6d83e18acbe380aa800ef8a2b822119f&oe=5EB8110D");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:700px;
+	padding-top:0px;
+	margin-bottom:20px;
+}
+.thoughts h1{
+	letter-spacing:5px;
+	font-size:80px;
+	line-height: 20px;
+	color:white;
+	font-family:"Times New Roman";
+}
+.port{
+	padding-top: 210px;
+}
+header{
+	height:90px;
+	color:black;
+	position:fixed;
+	top:0;
+	z-index:10;
+	background-image: linear-gradient(to right,grey,white);
+	width:100%;
+	border :5px solid black;
+}
+header img{
+	border-radius:50%;
+	height:75px;
+	float:left;
+	display: inline-block;
+	padding-left: 20px;
+}
+.top{
+	font-size:25px;
+	color:black;
+	border:5px solid black;
+	margin-right:40px;
+	margin-top:25px;
+}
+.top{
+	float: right;
+}
+.top:hover{
+	background-color: black;
+	color:white;
+}
+ header h1{
+	font-size:40px;
+	color:black;
+	float:left;
+	padding-left:30px;
+}
+
+.about h1{
+	border-bottom:1px solid black;
+	font-size:30px;
+}
+
+.about{
+	width:500px;
+	margin:0 auto;
+	text-align: :center;
+	font-size:20px;
+	padding-bottom:60px;
+}
+.logo{
+	box-sizing:border-box;
+	width:25%;
+	text-align: center;
+	float:left;
+}
+.logo img{
+	position:absolute;
+	opacity:0.4;
+	
+}
+.logo a{
+	position:relative;
+	top:90px;
+	left:45px;
+	color:black;
+	font-style: 100%;
+}
+
+.logo2 a{
+	position:relative;
+	left:40px;
+
+}
+.logo3 a{
+	position:relative;
+	left:40px;
+}
+.logo4 a{
+	position:relative;
+	right:1px;
+	left:15px;
+}
+
+.logo button{
+	position:relative;
+	top:90px;
+	left:55px;
+	color:black;
+}
+.info{
+	margin:0 auto;
+	width:1000px;
+	padding-bottom: 100px;
+}
+.information h1{
+	border-bottom:1px solid black;
+	font-size:30px;
+	margin:0 auto;
+	width:500px;
+	margin-bottom: 50px;
+}
+.logo img:hover{
+	opacity:1; 
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 3; 
+  top: 90px; 
+  left: 0;
+  background-color: black; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; 
+  background-color: grey; 
+}
+
+.skill{
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.html {width: 90%; background-color: green;}
+.css {width: 80%; background-color: blue;} 
+.js {width: 90%; background-color: red;} 
+.sql {width: 80%; background-color: orange;} 
+.c{
+	width: 90%; background-color: pink;
+}
+.cpp{
+	width: 60%; background-color: brown;
+}
+.react{
+	width: 80%; background-color: blue;
+}
+.node{
+	width: 0%; background-color: purple;
+}
+.java{
+	width: 0%; background-color: yellow;
+}
+
+ {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  padding: 16px 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.skills-popup {
+  display: none;
+  position: absolute;
+  background-color: black;
+  bottom: 150px;
+  border: 3px solid black;
+  z-index: 1;
+  color:white;
+  width:100%;
+  height:100%;
+  top:90px;
+  left:0;
+}
+.open-button:hover {
+  opacity: 1;
+} 
+.cancel{
+	padding:20px 40px;
+	margin-top: 50px;
+	margin-left: 50%;
+}
+.projecta{
+  box-shadow: 5px 10px #888888:
+  border:2px solid black;
+  width:25%;
+  margin: auto;
+  text-align: center;
+  background-image:linear-gradient(blue,white,blue);
+  top:200px;
+  padding-top:60px;
+  color:black;
+  float:left;
+  border-top: 2px solid black;
+  border-right: 1px solid black;
+}
+
+.projecta img{
+	height: 40%;
+	width: 100%;
+}
+
+.projecta a{
+	border: 3px solid black;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  display:block;
+  font-size: 18px;
+
+}
+.projecta button:hover {
+  opacity: 0.7;
+}
+.projecta a:hover{
+	opacity: 0.7;
+}
+.pop2{
+	width:100%;
+	background-color: white;
+}
+.projectb,.projectc,.projectd{
+	background-image:linear-gradient(blue,white,blue);
+	width:25%;
+	float:left;
+	top:200px;
+  padding-top:60px;
+  height: 81.5%;
+  color:black;
+  border: 2px solid black;
+  text-align:center;
+}
+.projectb img,.projectc img,.projectd img{
+	width:100%;
+	height: 81.5%;
+}
+.list{
+	padding-bottom: 300px;
+}
+
+.footer{
+	background-image:linear-gradient(to right,black,grey,grey);
+	width:100%;
+	height:200px;
+  padding-left:0;
+}
+.footer h1{
+	float:right;
+	padding-right: 100px;
+	font-size: 60px;
+}
+/*.thoughts img{
+	height: 100px;
+	width:150px;
+}
+*/
+.res img{
+  border-radius:50%;
+  height:500px;
+  margin-top:50px;
+  margin-bottom:20px;
+  margin-left:00px;
+}
+
+  
+.res a{
+  font-size:30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.res{
+  text-align: center;
+
+}
+.cancelb{
+  margin-left: 35px;
+}
+
